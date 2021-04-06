@@ -1,7 +1,19 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
-  // Add states and eventHandlers here
+  const [userData, setUserData] = useState({
+    firstName: "",
+    lastName: "",
+    age: 0,
+    email: "",
+    newsletter: false,
+  });
+
+  function handleChange(event) {
+    const { value, name } = event.target;
+    console.log(`${name}: ${value}`);
+  }
 
   function handleSubmit(event) {
     event.preventDefault();
