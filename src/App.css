@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+form {
+  display: grid;
+  max-width: 60vw;
+  margin: 0 auto;
+  grid-template-columns: 1fr 4fr;
+  gap: 1rem;
+}
+
+form > label {
+  grid-column: 1 / 2;
+}
+
+.newsletter {
+  display: inline;
+  grid-column: 2 / -1;
+}
