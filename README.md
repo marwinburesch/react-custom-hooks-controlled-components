@@ -1,4 +1,4 @@
-# Exercises: React - useEffect hook
+# Exercises: React - Controlled Components and Custom Hooks
 
 This repository contains the next few exercises to practice your React knowledge. It is part 2 of https://github.com/namirsab/react-exercise-template
 
