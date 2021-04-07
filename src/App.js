@@ -1,32 +1,24 @@
 import { useState } from "react";
 import "./App.css";
+import UserList from "./components/UserList";
 
 function App() {
-  const [userData, setUserData] = useState({
-    firstName: "",
-    lastName: "",
-    age: 0,
-    email: "",
-    newsletter: false,
-  });
+  // this state holds all submitted users, you'll need this later
+  const [users, setUsers] = useState([]);
 
-  function handleChange(event) {
-    const { value, name } = event.target;
-    console.log(`${name}: ${value}`);
-  }
-
-  function handleSubmit(event) {
-    event.preventDefault();
-    console.log("submitted");
-  }
+  // implement useUserData here, don't forget to use the respective
 
   return (
     <div className="App">
       <h1>More USERS!</h1>
       <h2>Enter user credentials below:</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={() => console.log("This should be a onSubmit handler")}>
         <label htmlFor="firstName">Name:</label>
-        <input type="text" name="firstName" />
+        <input
+          type="text"
+          name="firstName"
+          onChange={() => console.log("This should be an onChange handler")}
+        />
         <label htmlFor="lastName">Surname:</label>
         <input type="text" name="lastName" />
         <label htmlFor="age">Age:</label>
@@ -40,6 +32,7 @@ function App() {
           </label>
         </div>
       </form>
+      <UserList users={users} />
     </div>
   );
 }
