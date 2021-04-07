@@ -1,4 +1,4 @@
-export default function UserList(users) {
+export default function UserList({ users }) {
   function renderUsers() {
     return users.map((user) => (
       <li>
@@ -8,5 +8,5 @@ export default function UserList(users) {
     ));
   }
 
-  return <section>{renderUsers}</section>;
+  return <section>{users && renderUsers()}</section>;
 }
