@@ -1,15 +1,14 @@
 # Exercises: React - useEffect hook
 
-This repository contains 4 exercises to train the `useEffect` hook from React.
+This repository contains the next few exercises to practice your React knowledge. It is part 2 of https://github.com/namirsab/react-exercise-template
 
-The repository contains 5 branches:
+The repository contains 3 branches:
 
 - `main`: just for this README and general resources
-  And 4 branches, 1 per exercise:
-- `1-use-effect-basics`
-- `2-window-resize`
-- `3-counter-local-storage`
-- `4-using-external-api`
+  And 3 branches, 1 per exercise:
+- `5-controlled-components`
+- `6-controlled-components-single-state`
+- `7-custom-form-hook`
 
 ## Using the template
 
@@ -44,25 +43,19 @@ Just switch to a branch, work on the exercise, commit your changes to that branc
 
 - Official Documentation:
 
-  - [Using the Effect Hook](https://reactwithhooks.netlify.app/docs/hooks-effect.html)
-  - [Hooks API Reference: useEffect](https://reactwithhooks.netlify.app/docs/hooks-reference.html#useeffect)
+  - [Controlled Components](https://reactwithhooks.netlify.app/docs/forms.html#controlled-components)
+  - [Custom Hooks](https://reactwithhooks.netlify.app/docs/hooks-custom.html)
 
 - Cheatsheet:
 
-  - [React Hooks Cheatsheet](https://react-hooks-cheatsheet.com/useeffect)
+  - [React Hooks Cheatsheet](https://react-hooks-cheatsheet.com/)
 
 - Extra docs:
 
-  - [How the useEffect Hook Works](https://daveceddia.com/useeffect-hook-examples/)
+  - [HowTo: Custom React localStorage Hook](https://dev.to/sanderdebr/building-a-custom-react-localstorage-hook-2bja)
   - [The Last Guide to the useEffect hook you'll ever need](https://blog.logrocket.com/guide-to-react-useeffect-hook/)
 
 - Videos:
 
-  - The Net Ninja:
-
-    - [useEffect Basics](https://www.youtube.com/watch?v=gv9ugDJ1ynU)
-    - [useEffect dependencies](https://www.youtube.com/watch?v=jQc_bTFZ5_I)
-    - [fetching data with useEffect](https://www.youtube.com/watch?v=qdCHEUaFhBk)
-
   - Web Dev Simplified:
-    - [useEffect in 13 minutes](https://www.youtube.com/watch?v=0ZJgIjIuY7U)
+    - [Learn Custom Hooks In 10 Minutes](https://www.youtube.com/watch?v=6ThXsUwLWvc)
